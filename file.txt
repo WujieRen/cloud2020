@@ -1,0 +1,259 @@
+父工程
+    1.建父工程
+    	聚合总父工程名字
+    	Maven选择版本
+    2.工程名字
+    3.字符编码(File Encoding)
+    4.注解生效激活(Annotation Processors -> default-> Enable annotaion processing)
+    5.java版本选择(Java Compiler)
+    6.File Type 过滤
+
+
+微服务模块  provider-80001
+	1.建module
+	2.改pom
+	3.写YAML
+	4.主启动
+	5.业务类
+		1.建表SQL
+		2.entities/model
+		3.dao
+		4.service
+		5.controller
+
+
+建表
+
+    CREATE TABLE `payment` (
+      `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'ID',
+      `serial` varchar(200) COLLATE utf8_unicode_ci DEFAULT NULL,
+      PRIMARY KEY (`id`)
+    ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+    insert  into `payment`(`id`,`serial`) values (1,'尚硅谷'),(2,'京东');
+
+
+测试          Postman
+
+RunDashBoard
+
+热部署DevTools
+    1.Adding devtools to project.(添加到对应子工程的pom.xml)
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+    2.Adding plugin to pom.xml.（这个是要粘到父类总工程里面）
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <configuration>
+                        <fork>true</fork>
+                        <addResources>true</addResources>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+    3.Enabled automatic build.
+        settings -> build -> Compiler -> A、D、B、C统统打勾
+    4.Update the value of.
+        快捷键：Ctrl + Shift + Alt + / -> Registry
+        打勾：compiler.automake.allow.when.app.running  和  actionSystem.assertFocusAccessFromEdt
+    5.Restart idea
+
+
+
+微服务模块   consumer-80
+	1.建module
+	2.改pom
+ <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-web</artifactId>
+ </dependency>
+ <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-actuator</artifactId>
+ </dependency>
+
+ <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-devtools</artifactId>
+     <scope>runtime</scope>
+     <optional>true</optional>
+ </dependency>
+ <dependency>
+     <groupId>org.projectlombok</groupId>
+     <artifactId>lombok</artifactId>
+     <optional>true</optional>
+ </dependency>
+ <dependency>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-test</artifactId>
+     <scope>test</scope>
+ </dependency>
+	3.写YAML
+	    server:
+	        port: 80
+	4.主启动
+	5.业务类
+		1.entities：
+		    主实体：Payment
+		    封装实体：CommonResult
+		2.RestTemplate
+		    是什么？
+		        RestTemplate提供了多种便捷访问远程Http服务的方法，是一种简单便捷的访问restful服务模板类，
+		        是Spring提供的用于    访问Rest服务的客户端模板工具集。
+		    使用：
+		        使用restTemplate访问restful接口非常的简单粗暴。
+		        (url，requestMap，ResponseBean.class)这三个参数分别代表
+		        Rest请求地址，请求参数，Http响应转换被转成的对象类型。
+		3.@Configuration @Bean  -> RestTemplate
+		4.Controller（8001里面的create方法参数要加一个@RequestBody）
+
+工程重构--重复部分提出形成一个公共module
+    观察问题：系统中有重复部分，重构
+    新建module
+    改pom
+    entities
+    订单80和支付8001分别改造  --》 引入实体所在module
+    maven命令clean & install
+
+
+ Eureka
+    理论
+        什么是服务治理？
+            Spring Clound封装了NetFlix公司开发的Eureka模块来实现服务治理。
+            在传统的RPC远程调用框架中，管理每个服务与服务之间依赖关系比较复杂，所以需要使用服务治理，管理服务与服务之间的依赖关系。
+            可实现服务调用、负载均衡、容错等功能，实现服务发现与注册。
+        什么是服务注册与发现？
+            Eureka采用了CS的设计架构，Eureka Server作为服务注册功能的服务器，它是服务注册中心。
+            而系统中的其他微服务，使用Eureka客户端连接到Eureka Server并维持心跳连接。
+            这样系统的维护人员就可以通过Eureka Server来监控系统中各个微服务是否正常运行。
+
+            在服务注册与发现中，有一个注册中心。当（Provider）服务器启动的时候，会把自己当前服务器的信息，比如服务地址通讯地址等以别名方式注册到注册中心上。
+            另一方（Consumer消费者/服务提供者），以该别名的方式去注册中心获取实际的服务通讯地址，然后再实现本地RPC调用。
+            RPC远程调用核心框架思想：在于注册中心，因为使用注册中心管理每个服务与服务之间的依赖关系（服务治理概念）。
+            在任何RPC远程框架中，都会有一个注册中心（存放服务地址相关信息（接口地址））。
+        Eureka包含两个组件：Eureka Server 和 Eureka Client
+            Eureka Server提供服务注册服务
+                各个微服务节点通过配置启动后，会在EurekaServer中进行注册。
+                这样EurekaServer中的服务注册表中将会存储所有可用服务节点的信息，服务节点的信息可以在界面中直观看到。
+            Eureka Client通过注册中心进行访问
+                是一个Java客户端，用于简化Eureka Server的交互，客户端同时也具备一个内置的、使用轮询（round-robin）负载算法的负载均衡器。
+                在应用启动后，将会像Euraka Server发送心跳（默认周期为30秒）。
+                如果Eureka Server在多个心跳周期内（默认90秒）没有接收到某个节点的心跳，Euraka Server将会从服务注册表中把这个服务节点移除。
+    实操
+        单机版
+            IDEA生成Eureka Server服务注册中心
+                建module
+                改pom
+                写yaml
+                主启动
+                业务类
+                测试
+                    http://localhost:7001
+                    没有应用注册
+            Eureka Client端cloud-provider-paymnet8001，将注册进Eureka Server成为服务提供者（Provider）
+                修改cloud-provider-payment8001
+                    改pom
+                    改yml
+                    主启动 -》添加@EnableEurekaClient
+                    测试
+                        启动Eureka Server -》 查看应用是否注册成功
+            Eureka Client端cloud-consumer-order80，将注册进Eureka Server成为服务消费者（Consumer）
+                    修改cloud-consumer-order80
+                        改pom
+                        改yml
+                        主启动 -》 添加@EnableEurekaClient
+                        测试
+        集群Eureka构建
+            Eureka集群原理
+                服务注册：将服务信息注册进注册中心
+                服务发现：从注册中心获取信息
+                实质：存key服务名   取value调用地址
+
+                1.先启动Eureka注册中心；
+                2.启动服务提供者payment支付服务；
+                3.支付服务启动后会把自身服务信息（服务别名和实际地址）注册进Eureka；
+                4.消费者order服务需要在调用接口时，使用服务别名取注册中心获取实际的RPC远程调用地址；
+                5.消费者获得调用地址后，底层实际是利用HttpClient技术实现远程调用；
+                6.消费者获得服务地址后，会缓存在本地jvm内存中，默认每30秒更新一次服务地址。
+
+                集群原理：互相注册，相互守望
+            Eureka集群环境构建步骤
+                建module：参考cloud-eureka-server7001，新建cloud-eureka-server7002
+                改pom
+                修改配置映射
+                    改hosts
+                    修改映射配置添加到hosts文件
+                        127.0.0.1   eureka7001.com
+                        127.0.0.2   eureka7002.com
+                写yml（以前是单机）
+                主启动
+                测试；7001嫩看到7002注册、7002能看到7001注册
+            将支付服务8001微服务发布到上面2台Eureka集群中
+                改yml
+            将订单服务80微服务发布到上面2台Eureka集群配置中
+                改yml
+            测试01
+                先启动Eureka Server（7001、7002服务）
+                再启动provider8001
+                再启动cumsumer80
+                然后测试存取数据是否正常
+            支付服务提供者8001集群环境构建
+                建module：参考8001建8002
+                改pom
+                写yml
+                主启动
+                业务类
+                修改8001/8002的Controller
+                测试
+            负载均衡
+                BUG：订单服务地址不能写死
+                使用ApplicationContextBean中通过 @LoadBalanceed 注解赋予RestTemplate负载均衡的能力
+                （Ribbon和Eureka整合后Consumer可以直接调用服务而不用再关心地址和端口号，且该服务还拥有了负载均衡的能力）
+            测试02
+                启动7001、7002
+                启动8001、8002
+                启动80
+                web访问，端口8001和8002端口交替出现，即成功
+    actuator微服务信息完善
+        主机名称：服务名称修改（8001、8002）  -》 改yml
+        访问信息有ip信息提示  -》改yml
+    服务发现Discovery
+        对于注册进Eureka的微服务，可以通过服务发现来获得该服务的信息
+        修改cloud-provider-payment8001的Controller
+        8001主启动类添加：@EnableDiscoveryClient
+        自测
+    Eureka自我保护
+        概述
+            保护模式组合要用于一组客户端和Eureka Server之间存在网络分区场景下的保护。
+            一旦进入保护模式，Eureka Server将会尝试保护其服务注册表中的信息，不再删除服务注册表中的数据，也就不会注销任何微服务。
+
+            什么是自我保护模式？
+                默认情况下，如果Eureka Server在一定时间内没有接收到某个微服务的心跳，Eureka Server会注销该实例（默认90秒）。
+                但是当网络分区故障发生（延时、卡顿、拥挤）时，微服务与Eureka Server之间无法正常通信，以上行为就可能非常危险——因为微服务本身是健康的，此时不该注销该微服务。
+                Eureka通过“自我保护模式”来解决这个问题——当Eureka Server节点在短时间内丢失过多客户端时（可能是网络分区故障），那么这个节点就会进入自我保护模式。
+
+                自我保护模式是一种应对网络异常的安全保护措施。使用自我保护模式，可以让Eureka 集群更加健壮、稳定。
+            为何会产生自我保护机制？
+                为了防止Eureka Client可以正常运行，但是与Eureka Server网络不同的情况下误删微服务数据，Eureka不会立即将Eureka Client服务剔除。
+        故障现象
+            如果在Eureka Server 首页提示：EMERGENCY!...   说明进入了保护模式。
+        怎么禁止自我保护？
+            Euraka Server注册中心（7001）：
+                出厂默认，保护机制是开启的：eureka.server.enable-self-preservation=true；关闭就改为false（修改yml文件）
+                间隔时间evication-interval-timer-in-ms默认是90秒，此处改为:2000ms
+            Eureka Client客户端（8001）：
+                默认：
+                    Eureka客户端向服务端发送心跳的时间间隔：eureka.instance.lease-renewal-interval-in-seconds=30（单位：s）
+                    Eureka服务端在收到最后一次心跳后等待时间上限，超市将剔除服务：eureka.instance.lease-expiration-duration-in-seconds=90（单位：s）
+            自测：
+    Eureka停止更新了怎么办？
+    Spring Cloud整合Zookeeper替代Eureka
+
+
