@@ -18,11 +18,11 @@ mybatis:
 
 eureka:
   client:
-    register-with-eureka: true    #是否将自己注册进Eureka Server；默认为true。
+    register-with-eureka: true    #是否向注册中心(eureka server)注册自己
     fetch-registry: true      #是否从EurekaServer抓取已有的注册信息，默认为true。 #单节点无所谓，集群必须设置为true才能配合 Ribbon 使用负载均衡
     service-url:
-      defaultZone: http://localhost:7001/eureka  #单机版，集群的话填写多个，以英文,隔开
-    #defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+#      defaultZone: http://localhost:7001/eureka  #单机版，集群的话填写多个，以英文,隔开
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
   instance:
     instance-id: payment8001
     prefer-ip-address: true   #访问路径可以显示IP地址

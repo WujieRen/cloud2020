@@ -191,10 +191,10 @@ RunDashBoard
                     改hosts
                     修改映射配置添加到hosts文件
                         127.0.0.1   eureka7001.com
-                        127.0.0.2   eureka7002.com
+                        127.0.0.1   eureka7002.com
                 写yml（以前是单机）
                 主启动
-                测试；7001嫩看到7002注册、7002能看到7001注册
+                测试；7001能看到7002副本、7002能看到7001副本
             将支付服务8001微服务发布到上面2台Eureka集群中
                 改yml
             将订单服务80微服务发布到上面2台Eureka集群配置中
@@ -214,7 +214,7 @@ RunDashBoard
                 测试
             负载均衡
                 BUG：订单服务地址不能写死
-                使用ApplicationContextBean中通过 @LoadBalanceed 注解赋予RestTemplate负载均衡的能力
+                在ApplicationContextBean中通过 @LoadBalanceed 注解赋予RestTemplate负载均衡的能力
                 （Ribbon和Eureka整合后Consumer可以直接调用服务而不用再关心地址和端口号，且该服务还拥有了负载均衡的能力）
             测试02
                 启动7001、7002
