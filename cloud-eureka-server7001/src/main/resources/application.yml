@@ -1,0 +1,16 @@
+server:
+  port: 7001
+
+eureka:
+  instance:
+    hostname: eureka7001.com #Eureka服务端的实例名称
+  client:
+    register-with-eureka: false #是否向注册中心(eureka server)注册自己
+    fetch-registry: false #指定该client是否向eureka server获取注册信息
+    service-url:
+      #单机就是7001自己
+      defaultZone: http://eureka7001.com:7001/eureka
+    #server:
+    #关闭自我保护机制，保证不可用服务被及时踢除
+    #enable-self-preservation: false
+    #eviction-interval-timer-in-ms: 2000

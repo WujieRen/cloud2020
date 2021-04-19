@@ -4,7 +4,7 @@
     	Maven选择版本
     2.工程名字
     3.字符编码(File Encoding)
-    4.注解生效激活(Annotation Processors -> default-> Enable annotaion processing)
+    4.注解生效激活(Annotation Processors -> default-> Enable annotation processing)
     5.java版本选择(Java Compiler)
     6.File Type 过滤
 
@@ -163,7 +163,7 @@ RunDashBoard
                     改yml
                     主启动 -》添加@EnableEurekaClient
                     测试
-                        启动Eureka Server -》 查看应用是否注册成功
+                        启动Eureka Client -》 查看应用是否注册成功
             Eureka Client端cloud-consumer-order80，将注册进Eureka Server成为服务消费者（Consumer）
                     修改cloud-consumer-order80
                         改pom
