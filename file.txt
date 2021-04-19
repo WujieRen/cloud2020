@@ -227,7 +227,7 @@ RunDashBoard
     服务发现Discovery
         对于注册进Eureka的微服务，可以通过服务发现来获得该服务的信息
         修改cloud-provider-payment8001的Controller
-        8001主启动类添加：@EnableDiscoveryClient
+        8001/8002主启动类添加：@EnableDiscoveryClient
         自测
     Eureka自我保护
         概述

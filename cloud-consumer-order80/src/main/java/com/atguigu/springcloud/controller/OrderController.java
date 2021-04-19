@@ -34,4 +34,9 @@ public class OrderController {
         return restTemplate.getForObject(PAYMENT_URL+"/payment/get/"+id, CommonResult.class);
     }
 
+    @GetMapping("/consumer/discovery")
+    public CommonResult<String> getServiceInfo() {
+        return restTemplate.getForObject(PAYMENT_URL+"/payment/discovery", CommonResult.class);
+    }
+
 }

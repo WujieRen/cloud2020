@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class ApplicationContextConfig {
     //applicationContext.xml <bean id="" class="">
     @Bean
-    @LoadBalanced
+    @LoadBalanced       //启用Ribbon负载均衡
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }
