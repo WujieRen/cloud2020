@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author rwj
@@ -68,6 +69,19 @@ public class PaymentController {
                 serviceInfo.append("\\n");
             }
             return new CommonResult<>(200, "服务信息：", serviceInfo.toString());
+    }
+
+    //8002服务上没有该方法，因为feign开启了轮询算法均衡策略，所以会导致一下报错（whitable page）一下子可以访问（3秒延时）
+    @GetMapping("/payment/feign/timeout")
+    public String paymentFeignTimeout() {
+        System.out.println("*****paymentFeignTimeOut from port: "+serverPort);
+        // 业务逻辑处理正确，但是需要耗费3秒钟
+        try{
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
     }
 
 }
