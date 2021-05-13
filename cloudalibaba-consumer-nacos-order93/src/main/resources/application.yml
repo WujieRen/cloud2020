@@ -7,7 +7,8 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:8848
+#        server-addr: localhost:8848
+        server-addr: 192.168.154.11:5555
 
 # 作为服务消费者要消费服务的地址（http://服务名称）
 service-url:
