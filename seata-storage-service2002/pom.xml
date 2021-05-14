@@ -19,6 +19,11 @@
         </dependency>
         <!--seata-->
         <dependency>
+            <groupId>io.seata</groupId>
+            <artifactId>seata-spring-boot-starter</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
             <exclusions>
@@ -31,7 +36,7 @@
         <dependency>
             <groupId>io.seata</groupId>
             <artifactId>seata-all</artifactId>
-            <version>0.9.0</version>
+            <version>1.4.2</version>
         </dependency>
         <!--feign-->
         <dependency>
@@ -58,7 +63,8 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.37</version>
+            <!--<version>5.1.37</version>-->
+            <version>8.0.21</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
