@@ -20,4 +20,12 @@ public class ConfigClientController {
     public String getConfigInfo() {
         return configInfo;
     }
+
+    @Value("${seata.tx-service-group}")
+    private String seataGroup;
+
+    @GetMapping("/seata/config")
+    public String getSeataConfit() {
+        return seataGroup;
+    }
 }

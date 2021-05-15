@@ -10,7 +10,21 @@ spring:
       config:
         server-addr: localhost:8848 #Nacos作为配置中心地址
         file-extension: yaml #指定配置文件扩展名
-        namespace: c4d4a0c0-4c9d-4d4d-8b7e-81235d842609
+#        namespace: c4d4a0c0-4c9d-4d4d-8b7e-81235d842609
         group: CUSTOM_GROUP
+        #如果配了extension-configs又配一个shared-configs，加载的总是extension-configs的内容
+        shared-configs:
+          - data-id: shared-seata2.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+        # 配置不同的data-id会从0开始编号[0,1,...]编号越大优先级越高、或者说重复的会被覆盖
+        extension-configs:
+          - data-id: shared-seata.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+#          - data-id: shared-seata2.yaml
+#            group: DEFAULT_GROUP
+#            refresh: true
+
 
 # ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}

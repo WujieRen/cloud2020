@@ -1,0 +1,38 @@
+server:
+  port: 2001
+
+spring:
+  application:
+    name: seata-order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: b85f33a6-1a1f-4fa6-9a6b-dbef597e6f30
+        cluster-name: default
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+#        namespace: b85f33a6-1a1f-4fa6-9a6b-dbef597e6f30
+        # ！！！！！！！！！！！！以下参数只能配置在bootstrap.yml文件中，配置在application.yml文件中的话读取不到！！！！！！！！
+        extension-configs:
+#          shared-seataX.yml（即提出来的seata配置文件，或者说seata的配置中；namespage和group必须能够在nacos对应的namespace和group下找到；
+#               否则会报错：can not get cluster name in registry config 'service.vgroupMapping.seata-order-service-seata-service-group'
+#          - dataId: shared-seata2.yaml
+          - dataId: shared-seata.yaml
+            group: DEFAULT_GROUP
+            refresh: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver    #mysql驱动包
+    url: jdbc:mysql://localhost:3306/seata_account
+    username: root
+    password: 123456
+feign:
+  hystrix:
+    enabled: false
+logging:
+  level:
+    io:
+      seata: info
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
