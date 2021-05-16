@@ -19,6 +19,13 @@ import javax.annotation.Resource;
 @Slf4j
 @RestController
 public class PaymentController {
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB()
+    {
+        return serverPort;
+    }
+
     @Value("${server.port}")
     private String serverPort;
 

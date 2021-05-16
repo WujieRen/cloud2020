@@ -19,4 +19,10 @@ public class PaymentController {
     public String getPayment(@PathVariable("id") Integer id){
         return "nacos registry, serverPort: "+ serverPort+"\t id"+id;
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB()
+    {
+        return serverPort;
+    }
 }
