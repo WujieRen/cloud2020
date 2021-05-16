@@ -4,16 +4,22 @@ server:
 spring:
   application:
     name: nacos-payment-provider
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource    #当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver    #mysql驱动包
+    url: jdbc:mysql://localhost:3306/splc2020?useUnicode=true&characterEncoding-utr-8&useSSL=false
+    username: root
+    password: 123456
   cloud:
     nacos:
       discovery:
-#        server-addr: localhost:8848 #nacos-server地址
+        server-addr: localhost:8848 #nacos-server地址
         # 换成nginx的端口，做集群
         #这里配置集群时有一个比较坑的点，cluster.conf中必须配置成具体的<ip>:<port>，
         #如果<ip>换成<hostname>，会报错。即使/etc/hosts配置了ip hostname的映射关系。
         #而且如果cluster.conf中配置的是<ip>:<port>的话，nacosweb界面的 集群管理->集群节点列表除了<hostname>:<port>以外，还会轮询地多出一个<ip>:<port>
         #报错信息：  IllegalStateException: failed to req API:/nacos/v1/ns/instance
-        server-addr: 192.168.154.11:5555 #nacos-server地址
+#        server-addr: 192.168.154.11:5555 #nacos-server地址
 
 # 这里是作为服务提供者暴露出去的内容
 management:
@@ -21,3 +27,6 @@ management:
     web:
       exposure:
         include: '*'
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190e77af-76df-4139-b556-d48eed40607f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/all_document/seata/file.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_document/seata/nacos-config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/all_document/seata/nacos-config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,6 +32,7 @@
     <ignored path="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/" />
     <ignored path="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/target/" />
     <ignored path="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-gateway-gateway9527/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,38 +59,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/SeataStorageMain2002.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="260">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_document/seata/registry.conf">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1850">
-              <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+            <state relative-caret-position="308">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/all_document/seata/nacos-config.sh">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/all_document/seata/nacos-config.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+            <state relative-caret-position="660">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,6 +143,7 @@
       <find>Error creating bean</find>
       <find>Error creating bean with name</find>
       <find>transactionServiceGroup</find>
+      <find>mybatis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,25 +152,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/config/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/config/FeignConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9002.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/pom.xml" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/java/com/atguigu/springcloud/alibaba/OrderNacosMain93.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/java/com/atguigu/springcloud/alibaba/controller/OrderNacosController.java" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/java/com/atguigu/springcloud/alibaba/config/ApplicationContextConfig.java" />
-        <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml" />
         <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/NacosConfigClientMain3377.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9001.java" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/registry.conf" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/file.conf" />
@@ -155,10 +171,8 @@
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" />
         <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/AccountService.java" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/service/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/boot-strap.yml" />
         <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/controller/ConfigClientController.java" />
         <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/boot-strap.yml" />
@@ -167,13 +181,28 @@
         <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
         <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/seata-storage-service2002/pom.xml" />
         <option value="$PROJECT_DIR$/seata-account-service2003/pom.xml" />
         <option value="$PROJECT_DIR$/all_document/seata/nacos-config.txt" />
+        <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/dao/PaymentDao.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/PaymentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/mapper/PaymentMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -193,17 +222,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="seata-storage-service2002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="seata-storage-service2002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -230,36 +249,25 @@
             <path>
               <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
-              <item name="all_document" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
-              <item name="all_document" type="462c0819:PsiDirectoryNode" />
-              <item name="seata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -267,7 +275,85 @@
             <path>
               <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
-              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-api-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway-gateway9527" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -275,7 +361,148 @@
             </path>
             <path>
               <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2020-my" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba-provider-payment9002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="predicate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2020-my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-gateway-core:2.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-gateway-core-2.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,31 +517,32 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621060275858" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621159070987" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/boot-strap.yml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\WorkSpaceX\module-prj\cloud2020-my\seata-account-service2003\src\main\resources" />
-      <recent name="C:\Users\RWJ00\Desktop\YouPin\code\cloud2020" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="springcloud" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpaceX\module-prj\cloud2020-my\cloudalibaba-provider-payment9001\src\main\java\com\atguigu\springcloud\alibaba" />
+      <recent name="F:\WorkSpaceX\module-prj\cloud2020-my\cloudalibaba-provider-payment9001\src\main\resources\mapper" />
       <recent name="F:\WorkSpaceX\module-prj\cloud2020-my\all_document\seata" />
       <recent name="F:\WorkSpaceX\module-prj\cloud2020-my\seata-account-service2003\src\main\resources" />
       <recent name="C:\Users\RWJ00\Desktop\YouPin\code\cloud2020\seata-storage-service2002\src\main\resources" />
-      <recent name="C:\Users\RWJ00\Desktop\YouPin\code\cloud2020\seata-order-service2001\src\main\resources" />
-      <recent name="C:\Users\RWJ00\Desktop\YouPin\code\cloud2020\cloud-provider-payment8002\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.springcloud.alibaba.dao" />
+      <recent name="springcloud" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WorkSpaceX\module-prj\cloud2020-my\seata-account-service2003\src\main\resources" />
+      <recent name="C:\Users\RWJ00\Desktop\YouPin\code\cloud2020" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -335,7 +563,7 @@
     </option>
     <option name="contentProportion" value="0.22093023" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SeataStorageServiceApplication2002">
+  <component name="RunManager" selected="Spring Boot.GateWayMain9527">
     <configuration name="NamingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.springcloud.alibaba.NamingExample" />
       <module name="seata-account-service2003" />
@@ -359,6 +587,19 @@
     <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7002" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-gateway9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.GateWayMain9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -410,19 +651,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8002" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-provider-payment9001" />
       <extension name="coverage">
@@ -466,11 +694,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GateWayMain9527" />
+        <item itemvalue="Spring Boot.PaymentMain9001" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
         <item itemvalue="Application.NamingExample" />
         <item itemvalue="Spring Boot.OrderNacosMain93" />
-        <item itemvalue="Spring Boot.PaymentMain9001" />
-        <item itemvalue="Spring Boot.PaymentMain8002" />
       </list>
     </recent_temporary>
   </component>
@@ -509,12 +737,12 @@
       <workItem from="1620786844891" duration="4485000" />
       <workItem from="1620800193075" duration="53631000" />
       <workItem from="1620997512821" duration="5152000" />
-      <workItem from="1621041205877" duration="12664000" />
+      <workItem from="1621041205877" duration="26552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154790000" />
+    <option name="totallyTimeSpent" value="168678000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,8 +757,8 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49753696" visible="true" weight="0.2671141" />
-      <window_info id="Structure" order="1" sideWeight="0.50246304" side_tool="true" weight="0.2671141" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49731904" visible="true" weight="0.2671141" />
+      <window_info id="Structure" order="1" sideWeight="0.50268096" side_tool="true" weight="0.2671141" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -554,7 +782,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.7734584" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.35254693" />
       <window_info anchor="bottom" id="Duplicate detector" order="17" weight="0.3297587" />
       <window_info anchor="bottom" id="Thumbnails" order="18" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -610,18 +838,6 @@
           <line>217</line>
           <properties />
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/OrderServiceImpl.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/OrderServiceImpl.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/controller/StorageController.java</url>
@@ -750,362 +966,13 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_241/src.zip!/java/lang/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config/MyBatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/PostProcessorRegistrationDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/NacosConfigClientMain3377.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/BeanCurrentlyInCreationException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="414" selection-start-line="414" selection-end-line="414" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="711" selection-start-line="711" selection-end-line="711" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.1.RELEASE/spring-cloud-netflix-archaius-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/archaius/ArchaiusAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/BeanCreationException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_241/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanDefinition.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="555" selection-start-line="555" selection-end-line="555" />
-          <folding>
-            <element signature="e#19284#19285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/com/alibaba/druid/1.1.23/druid-1.1.23.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1185" selection-start-line="1185" selection-end-line="1185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/discovery/registry/RegistryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/discovery/registry/nacos/NacosRegistryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="118" column="35" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/rm/DefaultResourceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/rm/datasource/DataSourceProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#2929#2930#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/spring/annotation/datasource/DataSourceProxyHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/spring/annotation/datasource/SeataDataSourceBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="328" selection-start-line="328" selection-end-line="328" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/core/rpc/netty/RmNettyRemotingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="193" column="71" selection-start-line="193" selection-start-column="48" selection-end-line="193" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/rm/datasource/DataSourceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/rm/AbstractResourceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="26" selection-start-line="26" selection-start-column="2" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/com/alibaba/cloud/spring-cloud-alibaba-nacos-config/2.2.0.RELEASE/spring-cloud-alibaba-nacos-config-2.2.0.RELEASE-sources.jar!/com/alibaba/cloud/nacos/NacosConfigProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="571" column="24" selection-start-line="571" selection-start-column="24" selection-end-line="571" selection-end-column="24" />
-          <folding>
-            <element signature="e#8771#8772#0" expanded="true" />
-            <element signature="e#8812#8813#0" expanded="true" />
-            <element signature="e#8955#8956#0" expanded="true" />
-            <element signature="e#9002#9003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="46" column="32" selection-start-line="3" selection-end-line="46" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/SeataOrderMainApp2001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/.m2/repository/io/seata/seata-all/1.4.2/seata-all-1.4.2-sources.jar!/io/seata/core/rpc/netty/NettyClientChannelManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/SeataAccountMainApp2003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-account-service2003/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all_document/seata/file.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/SeataStorageMain2002.java">
+    <entry file="file://$PROJECT_DIR$/all_document/seata/nacos-config.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_document/seata/registry.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        <state relative-caret-position="75">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1116,10 +983,372 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_document/seata/nacos-config.txt">
+    <entry file="file://$PROJECT_DIR$/all_document/seata/registry.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="76" column="28" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="28" />
+        <state relative-caret-position="1850">
+          <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/SeataStorageMain2002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/java/com/atguigu/springcloud/alibaba/OrderNacosMain93.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/java/com/atguigu/springcloud/alibaba/controller/OrderNacosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/NacosConfigClientMain3377.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1252">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="37" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="20" selection-start-line="20" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/SeataAccountMainApp2003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#435#549#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/controller/ConfigClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/.m2/repository/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/handler/predicate/PredicateDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/.m2/repository/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/.m2/repository/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order93/src/main/java/com/atguigu/springcloud/alibaba/config/ApplicationContextConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/service/impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/dao/PaymentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/PaymentMain8001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/PaymentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/dao/PaymentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/resources/mapper/PaymentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
